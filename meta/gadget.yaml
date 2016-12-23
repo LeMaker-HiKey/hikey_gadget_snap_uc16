@@ -1,0 +1,14 @@
+device-tree: hi6220-hikey
+device-tree-origin: kernel
+volumes:
+  hikey:
+    bootloader: u-boot
+    schema: mbr
+    structure:
+      - type: 0C
+        filesystem: vfat
+        filesystem-label: system-boot
+        size: 128M
+        content:
+          - source: README
+            target: README

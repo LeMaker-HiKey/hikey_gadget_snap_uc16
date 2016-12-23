@@ -1,0 +1,8 @@
+name: hikey-snappy-gadget
+version: 16.04-1
+summary: HiKey board support package
+description: |
+ Support files for booting the HiKey board
+type: gadget
+architectures:
+  - arm64
